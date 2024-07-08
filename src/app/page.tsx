@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button"
+import { SignUp } from "@/components/component/sign-up";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Hello, World!</h1>
-      <Button>Click me</Button>
+    <main className="flex min-h-screen flex-col items-center justify-between h-vh">
+      <SignUp />
     </main>
   );
 }
