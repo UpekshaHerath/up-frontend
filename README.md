@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## How to create components 
+- we have specific types of components for differenct pages. Like Blog, logIn like wise. If there are components specific to those types of pages we can create them under that specific page type. 
+- If there are common components which we need to use commonly. We can go for `/common` folder under `/components`.
