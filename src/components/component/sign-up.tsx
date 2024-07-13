@@ -30,7 +30,7 @@ export function SignUp() {
           <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-foreground">Create your account</h2>
           <p className="mt-2 text-center text-sm text-muted-foreground">
             Or{" "}
-            <Link href="#" className="font-medium text-primary hover:underline" prefetch={false}>
+            <Link href="/sign-in" className="font-medium text-primary hover:underline" prefetch={false}>
               sign in to your existing account
             </Link>
           </p>
