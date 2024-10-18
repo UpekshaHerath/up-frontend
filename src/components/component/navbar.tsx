@@ -1,12 +1,14 @@
 /**
 * @see https://v0.dev/t/QjNAmjqZsZ2
 */
+'use client'
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { JSX, SVGProps } from "react"
+import { motion } from "framer-motion"
 
 export function Navbar() {
   return (
